@@ -1,0 +1,215 @@
+" But then they got to be 7pm and after.
+ Okay.
+ Well, they were suggesting Wednesday.
+ I don't mind either way.
+ I was just suggesting Wednesday because that would mean I'd probably a little bit less crowded.
+ So be easier probably to chat and you know, just have a conversation.
+ But I think Thursday should be all right as well.
+ Yeah, Thursday is fine to Wednesday Thursday.
+ Check check with the mythic if they don't have a solid conflict.
+ Then just do Thursday.
+ If not, do Wednesday but there's 7 7 30.
+ Are you guys can go 7? I'll try to be there 7.
+ I might be getting late and a little bit.
+ Okay.
+ So I'll just make sure with everybody and then I will.
+ I will send an email once we get a decision.
+ I finalize the decision.
+ Perfect.
+ So I'll just look.
+ Let's say we have a ball.
+ Like maybe maybe 10 to 15 minutes.
+ I'll let you guys start go a little bit over progress.
+ And what is there plan to do in the next week? Fine.
+ I think.
+ Okay.
+ Moint you want to start or should I start? No, you start for a second.
+ Okay.
+ Fantastic.
+ So I'll share quickly my.
+ Uh, my, sorry, my screen.
+ There we go.
+ And I'll show you this.
+ So basically what I did was using whisper as I was.
+ That was already in place basically.
+ And I put it on on a stream.
+ Since we said we want to make it.
+ Public we want not public.
+ Sorry.
+ We want to showcase it.
+ I thought stream let my via good platform.
+ This is currently running on my machine only.
+ It's not online.
+ But I think it's easier to create like the UI and showcase what's going on.
+ So this is very easy.
+ You just browse the file at a NP-3 file or any audio.
+ Almost all the audio files here.
+ You will say run on audio and this will create the Transcription for you.
+ So now from here we can just take this transcription and pass it on Words to what Moint has been doing.
+ I would show you live but this one is actually a little bit large.
+ I didn't have time to find something smaller.
+ So this one takes about I would say 10 minutes to do all this transcription.
+ Considering his running on CPU I think is not too bad.
+ But yeah, definitely he's not real time at the moment.
+ This is more or less what I've done so far.
+ Thank you Alex.
+ That's good stuff.
+ I'll let Moint go by then I'll try some hints and I had for you Alex's.
+ I think this is good for now for our proof of concept that does what we need it to do.
+ And I think that's good.
+ But then there are other things that we have to do in the future as well.
+ Okay, so I'm sharing my GitHub.
+ Reposs I didn't upload it this file on Azure.
+ So this is like busy GitHub repo that I use while during the coursework.
+ And let me first share my screen.
+ Okay, so this is what I did and this is Google Colab.
+ So this is just summarization of random articles.
+ So I took this article from this is a medium article.
+ And basically we can use Transformers.
+ I didn't use any GPT API or something like that.
+ So we can use this transformer and we can do transfer learning on top of this one.
+ So this is one and.
+ What kind of this this.
+ Okay, this is hugging phase.
+ So they provide us this pipeline.
+ So just import this pipeline and they have this summarization model specific for tax summarization.
+ So we can use this pipeline and summarization.
+ We can tweak this a little bit.
+ We can change this max length and mean and.
+ And we can use this for summarization.
+ So this is one approach like using a transformer and we can just tweak some hyper parameter.
+ So we can basically control the lens of the summarization.
+ Yes.
+ Okay, okay.
+ Then this is like this is from Vijay's assignment.
+ So he gave us these assignments.
+ I found out this one like bar.
+ Pegasus and T5.
+ So these are three models that we can use for summarization.
+ And this is what like I found out lately over here from my coolab.
+ And we already did summarization and here is the summarized text of one of his media article.
+ So we already did this.
+ So if you want, I'll upload this code as well.
+ So we can use these as summarization and this is basically her I mean his article was like his daughter asked him about what is neural network.
+ And he wrote enter article on media and then we summarized his article and this is the final summary of the article.
+ So basically we can use this one for our text summarization thing.
+ And one notebook I found out which is again.
+ They're using this same pipeline, but they have this library.
+ YouTube transcript API.
+ So what this library is doing is like you have to upload your YouTube video link.
+ And it will summarize like fetch the text from the video and summarize that entire video.
+ So we can build something like this.
+ So this is specifically for YouTube video or else we can do one thing like we'll upload our video on YouTube and we can use this library or else we can build something like this.
+ So from video it will fetch text and then it will summarize the whole thing.
+ And even this one over here they're using the same pipeline from a game face.
+ I see okay.
+ No, so that makes sense.
+ This is great.
+ So I think Mohit right now we need all of these models.
+ We need all these different models because right now we exactly don't know where we are going to end up.
+ We don't exactly know what is that end product.
+ The good thing is that if we try all of this and we have them available for us we can do what we want.
+ So I gave you the the open AI API like chat to BTAP.
+ If you want to start using that and can you can start using it.
+ I don't know how to put like limits or things like that.
+ I didn't put any limits on it.
+ Okay.
+ Yeah, but I don't know and I don't know how much they're going to charge the only and it's okay.
+ Maybe the charges won't be that much.
+ So if you start using it, we should be able to monitor it.
+ But because the problem with them is that because they have credit card on the file they you never know.
+ Like all of us.
+ And then you may just go like come back say you used it for $2,000.
+ I mean if you have to we will we will.
+ There is no problem.
+ But right now it's try to see either I give you a put limits on it or I don't know if you can put limits on it.
+ I don't think you can.
+ You can set up a limit from your open AI account.
+ Okay.
+ Okay.
+ So for now, I think 120 will be good for us to do some of your stuff.
+ I'm sorry.
+ I'm rushing to this.
+ But I want to talk to you about this.
+ So I will be seeing some very high rank people on the May 24th.
+ If that meeting doesn't cancel and I hope it doesn't.
+ So May 24th is May 24th is a five.
+ A five PN.
+ So what I'm hoping we do in this like two weeks or ten days basically less than two weeks.
+ Ten days is that.
+ I don't know.
+ So I think the best is the best is to if we don't have the whole pipeline ready that's fine.
+ If we can have it in bits and pieces.
+ Like for example, if the attacks extraction from audio was separate that's totally fine.
+ So okay, look we have this audio and the final tool it will be all live or what we all look at it seem less in one pipeline.
+ So we're not so we are uploading this audio.
+ It means the audio is taken from this classroom.
+ Then text is extracted.
+ Text is passed to our summarization model and then these questions have been asked from that specific text and these are the answers.
+ So we have to show this whole thing.
+ I'm hoping to at least some parts of parts of it and bits and pieces of it.
+ So I don't know either we can do say one of our meeting and use the flat purpose or we can just get a lecture as you said from or I'm meeting or seminar or something from YouTube.
+ And then have a specific questions.
+ Okay.
+ For example, what was the budget for be a so to say this is a meeting with the car company B and W.
+ What was the budget for B and W this much when they're going to release the new model this time.
+ What are the areas of focus for example, what were the actions and things like that and then a simple as that and I should be able to I should be able to present it or at least show the idea like I'm like computer or something.
+ Even if I if we can if I can use that and record our discussion with what the George Brown team and just use it right there in front of their eyes that will be even better.
+ But we have to show something because because these are her if I meet them right now, I cannot meet with them soon again.
+ These are these people, like at least few months in advance.
+ So that's my hope that's that's my perspective.
+ So try to it's okay if you're limiting your scope it's okay if you want to just stay focused stay focused but make something that is at least is presentable.
+ And then I did told them about my other ideas as well.
+ There is a lot coming and it seems that they are open.
+ So if you pin this contact with them, I think there will be an amazing it's just a future of learning.
+ I will give you more assignments about future of learning and we have to sit down and talk about all the stuff that we've been in use for future learning.
+ Anyways, I trust you anyway, so we have an NDA as well in place.
+ We're talking about course development.
+ You're talking about delivery development.
+ I tell us how to deliver this course.
+ If you need a break right now on the class, if you need an exercise now, or we have to write a survey right now.
+ We have to take break for 10 minutes.
+ Like all of that guidance comes through this whole package that we're going to do for course our line development course material development practices exercises.
+ Even looking at the attention of the students.
+ This is very futuristic but then you can have your camera looking at the students and tell it nothing to do with personal stuff but say okay 20% of your class is not paying attention.
+ 10% of the class are tired.
+ Let's do an activity.
+ Everyone is standing up and we want to talk to each other.
+ Things like that.
+ Sorry, I did rush to this but please set up something for maybe tomorrow or day after.
+ So we take this further.
+ My Tuesday is better during the day.
+ Like starting from 11 until like I think before 4 or something there, I can do another half an hour meeting if you guys want to look quite that one as well.
+ But sorry, do I have to go? Does that make sense? Yes, that's clear.
+ So will set something for Tuesday? Would let's say 3 3 3 3 3 work for you? I think I should be good all the way till 4.
+ Okay, I'll try to make it 3 because I think Mojit is working before and then I'm working for lunchtime.
+ I'll try to be as almost as possible.
+ If that doesn't work, then we can do like late late evening as well.
+ Like after 8 or something.
+ Okay, I think that would be better if Mojit is alright with that.
+ So talk between the two of you that give me the spots that works for both of you doing.
+ I want to make sure more.
+ Or after 8, basically.
+ Right.
+ Yeah, so no, you give me anything that works for you anything that you've worked for you to and I'll pick that Monday Tuesday Wednesday.
+ Perfect.
+ I think Monday Tuesday is better so we can advance a little bit faster.
+ And then at that meeting, we're going to talk about next step and what we're going to do.
+ That's right.
+ We didn't have enough time today.
+ That's alright, perfect.
+ Fantastic.
+ So we can talk about days at late.
+ Yeah, okay.
+ Thank you guys.
+ Amazing.
+ You're doing more.
+ It's fantastic.
+ What you do.
+ Great.
+ Keep it up.
+ Thank you.
+ Perfect.
+ Thank you very much.
+ Thank you.
+"
